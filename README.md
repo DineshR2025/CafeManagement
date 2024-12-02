@@ -10,8 +10,11 @@
 --Backend Setup
 1. Navigate to the CafeManagement_Backend folder and open the file CafeManagement.sln in Visual Studio.
 2. Install .NET Core Runtime 8 if not already installed.
-3. Run the project CafeManagement.WebApi.
-4. Confirm that the Swagger window opens successfully.
+3. Open the Appsettings.json file located in the CafeManagement.WebApi project.
+4. Locate the "DefaultConnection" connection string under the ConnectionStrings section.
+5. Update it with your database server name, database name, username, and password
+6. Run the project CafeManagement.WebApi.
+7. Confirm that the Swagger window opens successfully.
 
 --Frontend Setup
 
